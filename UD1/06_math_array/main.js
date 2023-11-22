@@ -10,6 +10,7 @@ function doCalculation(array) {
 let sum=0
 let numMa=array[0]
 let numMe=array[0]
+let med=0
 for (let index = 0; index < array.length; index++) {
     
     sum= sum + array[index]
@@ -19,9 +20,16 @@ for (let index = 0; index < array.length; index++) {
        numMa = array[index] 
     
     }
+
+    if (array[index]<numMe){
+
+        numMe = array[index]
+    }
+
+    med= sum/array.length 
 }
 
-console.log(sum,numMa)
+console.log(sum,numMa,numMe,med)
 }
 
 doCalculation([1,2,3,4])
