@@ -1,4 +1,16 @@
 function printMultiplicationTables() {
+    let num=[]
+
+for (let index = 1; index <= 10; index++) {
+    let num=[]
+    for (let i = 1; i <= 10; i++) {
+     num.push(index*i)
+     
+    }
+    console.log(num)
+
+}
+
 
 }
 
