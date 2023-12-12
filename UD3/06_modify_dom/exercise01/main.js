@@ -1,5 +1,14 @@
 window.onload = function(e) {
-    console.log('documento cargado')
+document.getElementsByClassName('first')[0].style.backgroundColor = "yellow"
+document.getElementsByTagName('h2')[1].innerHTML = "no"
+console.log(document.getElementsByClassName('buttons'))
 
-    // document.getElementsByTagName('h1')[0].innerText = 'Changed from JS!!'
+console.log(document.querySelectorAll("li .item"))
+
+let g = document.querySelectorAll("article .first")
+for (let index = 0; index < g.length; index++) {
+   g[index].style.color = "red"
+    
 }
+
+}  

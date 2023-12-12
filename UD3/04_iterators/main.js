@@ -29,7 +29,8 @@ var pilots = [
   }
 ];
 
-function iterateSimple() {
+function iterateSimple(pilots) {
+
 }
 function iterateForEach() {
 }
